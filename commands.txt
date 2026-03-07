@@ -1,0 +1,21 @@
+
+pipenv install langchain_groq langchain_openai langchain_community openai 
+pipenv install langchain-google-genai google-genai
+pipenv install pydantic fastapi uvicorn
+pipenv install streamlit
+
+
+pipenv shell
+
+python ai_agent.py
+
+python backend.py
+
+
+pipenv run streamlit run frontend.py
+
+
+
+
+
+
