@@ -7,7 +7,7 @@ This project is an **Agentic AI Chatbot** built using:
 - **FastAPI** for the backend API
 - **Streamlit** for the frontend UI
 - **Tavily Search** for optional web search
-- **OpenAI / Gemini / Groq** as LLM providers
+- **OpenAI / Gemini** as LLM providers
 
 The chatbot allows users to:
 
@@ -30,7 +30,7 @@ FastAPI Backend
       ↓
 LangGraph AI Agent
       ↓
-LLM Provider (OpenAI / Gemini / Groq)
+LLM Provider (OpenAI / Gemini)
       ↓
 Response returned to UI
 ```
@@ -59,7 +59,7 @@ Install the required packages using the following commands.
 ## Install LangChain and LLM Integrations
 
 ```bash
-pipenv install langchain_groq langchain_openai langchain_community openai
+pipenv install langchain_openai langchain_community openai
 ```
 
 ## Install Gemini Support
@@ -152,7 +152,6 @@ http://localhost:8501
 - Multiple LLM Provider Support
   - OpenAI
   - Gemini
-  - Groq
 
 - Agentic AI using **LangGraph**
 
@@ -169,7 +168,7 @@ http://localhost:8501
 1. Start the backend server
 2. Launch the Streamlit UI
 3. Select:
-   - Provider (OpenAI / Gemini / Groq)
+   - Provider (OpenAI / Gemini)
    - Model
    - Enable or disable web search
 4. Enter your prompt
@@ -187,7 +186,6 @@ http://localhost:8501
 - Tavily Search API
 - OpenAI API
 - Google Gemini API
-- Groq API
 
 ---
 
